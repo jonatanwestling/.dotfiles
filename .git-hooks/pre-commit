@@ -20,4 +20,4 @@ git config user.email "$email"
 
 ##echo "Git author set to $name <$email> based on remote $remote_url 🤪"
 ##echo -e "\033[1m🚀 Git author $name <$email> set for $remote_url\033[0m"
-echo -e "\033[1;32m[ 💾 $name <$email> set for $remote_url ]\033[0m"
+echo -e "\033[1;32m[$name <$email> set for $remote_url]\033[0m"
