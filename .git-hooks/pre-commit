@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# Get the remote URL
+remote_url=$(git remote get-url origin 2>/dev/null)
+
+# Default values
+name="Jonatan Westling"
+email="jonatanwestling4@gmail.com"
+
+# Match remote and set correct email
+if [[ "$remote_url" == *github.com* ]]; then
+  email="jonatanwestling4@gmail.com"
+elif [[ "$remote_url" == *git.cs.umu.se* ]]; then
+  email="c22jwg@cs.umu.se"
+fi
+
+# Set the local config
+git config user.name "$name"
+git config user.email "$email"
+
+echo "Git author set to $name <$email> based on remote $remote_url 🤪"
