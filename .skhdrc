@@ -122,7 +122,7 @@ cmd - 7 : open -a notes
 
 cmd - 8 : open -a safari
 
-cmd - 9 : open -a cursor
+cmd - 9 : open -a "Visual Studio Code"
 
 cmd - 0 : open -a excalidrawz
 
