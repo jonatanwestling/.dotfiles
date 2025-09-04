@@ -21,3 +21,6 @@ source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"
 
 eval "$(starship init zsh)"
+
+# Created by `pipx` on 2025-07-03 19:34:05
+export PATH="$PATH:/Users/jonatanwestling/.local/bin"
