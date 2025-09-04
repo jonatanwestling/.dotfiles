@@ -120,12 +120,13 @@ cmd - 6 : open -a finder
 #======================================
 cmd - 7 : open -a notes
 
+#cmd - 8 : open -a "Android Studio"
 cmd - 8 : open -a safari
 
 cmd - 9 : open -a cursor
 
 cmd - 0 : open -a excalidrawz
 
-cmd + shift - 1 : open -a xcode
+cmd + shift - 9 : open -a xcode
 
-cmd + shift - 2 : open -a simulator
+cmd + shift - 0 : open -a simulator
