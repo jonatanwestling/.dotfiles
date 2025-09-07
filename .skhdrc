@@ -104,7 +104,8 @@
 #    "terminal"
 #    "qutebrowser"
 # ]
-
+# disable cmd tab
+cmd - tab : noop
 # open iTerm2
 cmd - 1 : open -a iTerm
 # open browser
