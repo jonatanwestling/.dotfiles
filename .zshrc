@@ -18,6 +18,9 @@ compinit
 # zsh-autosuggestions
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
+# cmd to quit all open apps
+alias qall='osascript -e "tell application \"System Events\" to set quitApps to (name of every process whose background only is false and name is not \"Finder\")" -e "repeat with theApp in quitApps" -e "tell application theApp to quit" -e "end repeat"'
+
 export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"
 
 eval "$(starship init zsh)"
