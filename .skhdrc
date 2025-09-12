@@ -104,9 +104,10 @@
 #    "terminal"
 #    "qutebrowser"
 # ]
+
 # disable cmd tab
 cmd - tab : noop
-# open iTerm2
+
 cmd - 1 : open -a iTerm
 # open browser
 cmd - 2 : open -a sigmaos
@@ -114,6 +115,7 @@ cmd - 2 : open -a sigmaos
 cmd - 3 : open -a chatgpt
 
 cmd - 4 : open -a spotify
+
 #=== Least opened apps in the middle ==
 cmd - 5 : open -a discord
 
@@ -122,11 +124,18 @@ cmd - 6 : open -a finder
 cmd - 7 : open -a notes
 
 #cmd - 8 : open -a "Android Studio"
-cmd - 8 : open -a safari
+cmd - 8 : open -a "Visual Studio Code"
 
 cmd - 9 : open -a cursor
 
 cmd - 0 : open -a excalidrawz
+
+#Shifted ==============================
+
+#alternative browser
+cmd + shift - 2 : open -a safari
+
+cmd + shift - 5 : open -a slack
 
 cmd + shift - 9 : open -a xcode
 
