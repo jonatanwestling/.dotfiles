@@ -37,4 +37,10 @@ create_symlink "$DOTFILES_DIR/starship.toml" "$HOME/.config/starship.toml"
 # git-hooks folder symlink
 create_symlink "$DOTFILES_DIR/.git-hooks" "$HOME/.git-hooks"
 
+# ghostty config
+mkdir -p "$HOME/.config/ghostty"
+
+create_symlink "$DOTFILES_DIR/ghostty.config" "$HOME/.config/ghostty/config"
+create_symlink "$DOTFILES_DIR/Ghostty.icns" "$HOME/.config/ghostty/Ghostty.icns"
+
 echo "✅ Dotfiles installed successfully."
