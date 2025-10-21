@@ -108,7 +108,8 @@
 # disable cmd tab
 cmd - tab : noop
 
-cmd - 1 : open -a iTerm
+#cmd - 1 : open -a iTerm
+cmd - 1 : open -a ghostty
 # open browser
 cmd - 2 : open -a sigmaos
 
