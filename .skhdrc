@@ -106,16 +106,17 @@
 # ]
 
 # disable cmd tab
-cmd - tab : noop
+#cmd - tab : noop
 
 #cmd - 1 : open -a iTerm
 cmd - 1 : open -a ghostty
 # open browser
-cmd - 2 : open -a sigmaos
+cmd - 2 : open -a zen
 
 cmd - 3 : open -a chatgpt
 
-cmd - 4 : open -a "Visual Studio Code"
+#cmd - 4 : open -a "Visual Studio Code"
+cmd - 4 : open -a antigravity
 
 #=== Least opened apps in the middle ==
 cmd - 5 : open -a discord
@@ -126,13 +127,13 @@ cmd - 7 : open -a notes
 
 #cmd - 8 : open -a "Android Studio"
 cmd - 8 : open -a spotify  
-cmd - 9 : open -a cursor
+cmd - 9 : open -a preview
 
-cmd - 0 : open -a excalidrawz
+#cmd - 0 : open -a excalidrawz
 #Shifted ==============================
 
 #alternative browser
-cmd + shift - 2 : open -a safari
+cmd + shift - 2 : open -a firefox
 
 cmd + shift - 5 : open -a slack
 
