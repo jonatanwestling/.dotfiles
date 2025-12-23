@@ -1,5 +1,3 @@
-export PS1="jonatan$ "
-
 # General locale for English
 export LANG=en_US.UTF-8
 # Swedish-specific settings for regional preferences
@@ -30,6 +28,9 @@ eval "$(starship init zsh)"
 # ZSH_THEME="robbyrussell"
 # plugins=(git)
 #source $ZSH/oh-my-zsh.sh
+
+export CLICOLOR=1
+export LSCOLORS=HxfxCxDxBxegedabagacad
 
 # Paths
 export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"
