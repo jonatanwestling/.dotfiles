@@ -140,3 +140,8 @@ cmd + shift - 5 : open -a slack
 cmd + shift - 9 : open -a xcode
 
 cmd + shift - 0 : open -a simulator
+
+# Hypr key ===============================
+cmd + ctrl + shift + alt - b : open -a zen
+cmd + ctrl + shift + alt - t : open -a ghostty
+
