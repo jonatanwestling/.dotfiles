@@ -1,6 +1,7 @@
 [character]
-success_symbol = "[jonatan\\$](bold green)"
-error_symbol = "[jonatan\\$](bold red)"
+success_symbol = "[\\$](bold green)"
+error_symbol = "[\\$](bold red)"
+vicmd_symbol   = "[\\$](bold bright-yellow)"
 
 [aws]
 symbol = "  "
