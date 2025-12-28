@@ -34,7 +34,7 @@ export LSCOLORS=HxfxCxDxBxegedabagacad
 
 # Paths
 export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"
-export PATH="$HOME/Documents/scripts:$PATH"
+export PATH="$HOME/.local/scripts:$PATH"
 export PATH="/Library/TeX/texbin:$PATH"
 export PATH="/Applications/MATLAB_R2024b.app/bin:$PATH"
 
