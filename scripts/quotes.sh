@@ -10,7 +10,10 @@ quotes=(
   "What if?"
   "TAKING SOULS."
   "Be uncommon amongst the uncommon."
-  "Don't stop when you're tired. Stop when you're done."
+  "No excuses."
+  "Lock in."
+  "Be relentless."
+  "Win the day."
 )
 
 index=$((RANDOM % ${#quotes[@]}))
