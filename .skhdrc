@@ -153,6 +153,14 @@ cmd + ctrl + shift + alt - a : yabai --start-service
 # toggle floating window
 cmd + ctrl + shift + alt - f : yabai -m window --toggle float
 
+# Toggle between stack and bsp
+cmd + ctrl + shift + alt - l : \
+  if yabai -m query --spaces --space | jq -e '.type == "stack"' >/dev/null; then \
+    yabai -m space --layout bsp; \
+  else \
+    yabai -m space --layout stack; \
+  fi
+
 cmd + ctrl + shift + alt - 1 : yabai -m space --focus 1
 cmd + ctrl + shift + alt - 2 : yabai -m space --focus 2
 cmd + ctrl + shift + alt - 3 : yabai -m space --focus 3
