@@ -39,6 +39,7 @@ create_symlink() {
   fi
 }
 
+# All config files that are in the root of the HOME directory
 # Zsh config
 create_symlink "$DOTFILES_DIR/.zshrc" "$HOME/.zshrc"
 
@@ -48,21 +49,27 @@ create_symlink "$DOTFILES_DIR/.tmux.conf" "$HOME/.tmux.conf"
 # skhd config
 create_symlink "$DOTFILES_DIR/.skhdrc" "$HOME/.skhdrc"
 
+# yabai config
+create_symlink "$DOTFILES_DIR/.yabairc" "$HOME/.yabairc"
+
+# git-hooks folder symlink
+create_symlink "$DOTFILES_DIR/.git-hooks" "$HOME/.git-hooks"
+
+# All the config files that are placed inside the .config folder
 # Create .config folder if missing
 mkdir -p "$HOME/.config"
 
 # starship config
 create_symlink "$DOTFILES_DIR/starship.toml" "$HOME/.config/starship.toml"
 
-# git-hooks folder symlink
-create_symlink "$DOTFILES_DIR/.git-hooks" "$HOME/.git-hooks"
-
 # ghostty config
 mkdir -p "$HOME/.config/ghostty"
-
 create_symlink "$DOTFILES_DIR/ghostty.config" "$HOME/.config/ghostty/config"
 create_symlink "$DOTFILES_DIR/Ghostty.icns" "$HOME/.config/ghostty/Ghostty.icns"
 
+# karabiner config
+mkdir -p "$HOME/.config/karabiner"
+create_symlink "$DOTFILES_DIR/karabiner/karabiner.json" "$HOME/.config/karabiner/karabiner.json"
 #Personal scripts folder
 mkdir -p "$HOME/.local" # make sure parent exists
 create_symlink "$DOTFILES_DIR/scripts" "$HOME/.local/scripts"
