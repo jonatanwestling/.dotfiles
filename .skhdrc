@@ -113,10 +113,10 @@ cmd - 1 : open -a ghostty
 # open browser
 cmd - 2 : open -a zen
 
-cmd - 3 : open -a chatgpt
+cmd - 3 : open -a grok
 
-#cmd - 4 : open -a "Visual Studio Code"
-cmd - 4 : open -a antigravity
+cmd - 4 : open -a "Visual Studio Code"
+#cmd - 4 : open -a antigravity
 
 #=== Least opened apps in the middle ==
 cmd - 5 : open -a discord
