@@ -13,6 +13,8 @@ sudo yabai --load-sa
 # Ignore System Settings and System Preferences
 yabai -m rule --add app="^System Settings$" manage=off
 yabai -m rule --add app="^Finder$" manage=off
+yabai -m rule --add app="^Photos$" manage=off
+yabai -m rule --add app="^Spotify$" manage=off
 
 yabai -m rule --add app=".*" sub-layer=normal
 
