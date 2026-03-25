@@ -113,7 +113,8 @@ cmd - 1 : open -a ghostty
 # open browser
 cmd - 2 : open -a zen
 
-cmd - 3 : open -a grok
+#cmd - 3 : open -a gemini
+cmd - 3 : open -a chatgpt
 
 cmd - 4 : open -a "Visual Studio Code"
 #cmd - 4 : open -a antigravity
@@ -133,7 +134,7 @@ cmd - 9 : open -a preview
 #Shifted ==============================
 
 #alternative browser
-cmd + shift - 2 : open -a firefox
+cmd + shift - 2 : open -a safari
 
 cmd + shift - 5 : open -a slack
 
@@ -144,24 +145,3 @@ cmd + shift - 0 : open -a simulator
 # Hypr key ===============================
 cmd + ctrl + shift + alt - b : open -a zen
 cmd + ctrl + shift + alt - t : open -a ghostty
-
-# Yabai ===============================
-cmd + ctrl + shift + alt - r : yabai --restart-service
-cmd + ctrl + shift + alt - s : yabai --stop-service
-cmd + ctrl + shift + alt - a : yabai --start-service
-
-# toggle floating window
-cmd + ctrl + shift + alt - f : yabai -m window --toggle float
-
-# Toggle between stack and bsp
-cmd + ctrl + shift + alt - l : \
-  if yabai -m query --spaces --space | jq -e '.type == "stack"' >/dev/null; then \
-    yabai -m space --layout bsp; \
-  else \
-    yabai -m space --layout stack; \
-  fi
-
-cmd + ctrl + shift + alt - 1 : yabai -m space --focus 1
-cmd + ctrl + shift + alt - 2 : yabai -m space --focus 2
-cmd + ctrl + shift + alt - 3 : yabai -m space --focus 3
-

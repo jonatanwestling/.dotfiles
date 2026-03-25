@@ -49,9 +49,6 @@ create_symlink "$DOTFILES_DIR/.tmux.conf" "$HOME/.tmux.conf"
 # skhd config
 create_symlink "$DOTFILES_DIR/.skhdrc" "$HOME/.skhdrc"
 
-# yabai config
-create_symlink "$DOTFILES_DIR/.yabairc" "$HOME/.yabairc"
-
 # git-hooks folder symlink
 create_symlink "$DOTFILES_DIR/.git-hooks" "$HOME/.git-hooks"
 
