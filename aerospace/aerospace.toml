@@ -45,7 +45,7 @@ automatically-unhide-macos-hidden-apps = false
 # even when they are invisible.
 # This config version is only available since 'config-version = 2'
 # Fallback value (if you omit the key): persistent-workspaces = []
-persistent-workspaces = ["1", "2", "3", "4", "5", "6", "8", "9"]
+persistent-workspaces = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
 
 # A callback that runs every time binding mode changes
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
@@ -173,3 +173,39 @@ on-mode-changed = []
     cmd-shift-j = ['join-with down', 'mode main']
     cmd-shift-k = ['join-with up', 'mode main']
     cmd-shift-l = ['join-with right', 'mode main']
+
+[workspace-to-monitor-force-assignment]
+1 = 'secondary'
+2 = 'secondary'
+3 = 'secondary'
+4 = 'secondary'
+5 = 'secondary'
+6 = 'main'
+7 = 'main'
+8 = 'main'
+9 = 'main'
+
+# Floating windows
+[[on-window-detected]]
+if.app-id = 'com.apple.finder'
+run = [
+  'layout floating'
+]
+
+[[on-window-detected]]
+if.app-id = 'com.apple.reminders'
+run = [
+  'layout floating'
+]
+
+[[on-window-detected]]
+if.app-id = 'com.apple.iCal'
+run = [
+  'layout floating'
+]
+
+[[on-window-detected]]
+if.app-id = 'com.apple.messages'
+run = [
+  'layout floating'
+]
