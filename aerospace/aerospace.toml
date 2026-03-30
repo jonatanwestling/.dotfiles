@@ -107,7 +107,7 @@ on-mode-changed = []
     # '''
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#layout
-    cmd-slash = 'layout tiles horizontal vertical'
+    cmd-period= 'layout tiles horizontal vertical'
     cmd-comma = 'layout accordion horizontal vertical'
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#focus
@@ -123,9 +123,10 @@ on-mode-changed = []
     cmd-shift-l = 'move right'
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#resize
-    cmd-minus = 'resize smart -50'
-    cmd-equal = 'resize smart +50'
-
+    cmd-ctrl-h = 'resize width -50'
+    cmd-ctrl-l = 'resize width +50'
+    cmd-ctrl-k = 'resize height -50'
+    cmd-ctrl-j = 'resize height +50'
     # See: https://nikitabobko.github.io/AeroSpace/commands#workspace
     cmd-1 = 'workspace 1'
     cmd-2 = 'workspace 2'
