@@ -105,26 +105,7 @@
 #    "qutebrowser"
 # ]
 
-# disable cmd tab
-#cmd - tab : noop
-
-cmd + alt - 1 : open -a ghostty
-cmd + alt - 2 : open -a zen
-cmd + alt - 3 : open -a chatgpt
-cmd + alt - 4 : open -a "Visual Studio Code"
-cmd + alt - 5 : open -a discord
-cmd + alt - 6 : open -a finder
-cmd + alt - 7 : open -a notes
-cmd + alt - 8 : open -a spotify
-cmd + alt - 9 : open -a preview
-
-# shifted alternatives
-cmd + alt + shift - 2 : open -a safari
-cmd + alt + shift - 5 : open -a slack
-cmd + alt + shift - 9 : open -a xcode
-cmd + alt + shift - 0 : open -a simulator
-
-# Hypr key ===============================
+# Hypr key used for launching applications (right command configured with karabiner elements)
 cmd + ctrl + shift + alt - b : open -a zen
 cmd + ctrl + shift + alt - return : open -a ghostty
 cmd + ctrl + shift + alt - t : open -a ghostty
@@ -134,5 +115,6 @@ cmd + ctrl + shift + alt - d : open -a discord
 cmd + ctrl + shift + alt - p : open -a preview
 cmd + ctrl + shift + alt - n : open -a notes
 cmd + ctrl + shift + alt - f : open -a finder
+cmd + ctrl + shift + alt - a : open -a antigravity
 cmd + ctrl + shift + alt - v : open -a "Visual Studio Code"
 cmd + ctrl + shift + alt - s : open -a excalidrawz
