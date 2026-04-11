@@ -13,7 +13,7 @@ create_symlink() {
 
     if [ -L "$dest" ] && [ "$(readlink "$dest")" = "$src" ]; then
         echo "➜ $dest already correctly symlinked, skipping."
-        ((LINK_COUNT))
+        ((LINK_COUNT++))
     elif [ -e "$dest" ]; then
         echo
         echo "❗$dest exists but is not the expected symlink."
@@ -24,18 +24,18 @@ create_symlink() {
             ln -s "$src" "$dest"
             echo
             echo "✔ Overwritten: $dest → $src"
-            ((LINK_COUNT))
+            ((LINK_COUNT++))
             ;;
         *)
             echo
             echo "➜ Skipped: $dest"
-            ((SKIPPED_COUNT))
+            ((SKIPPED_COUNT++))
             ;;
         esac
     else
         ln -s "$src" "$dest"
         echo "✔ Created symlink: $dest → $src"
-        ((LINK_COUNT))
+        ((LINK_COUNT++))
     fi
 }
 
