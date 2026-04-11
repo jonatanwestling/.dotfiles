@@ -118,3 +118,6 @@ cmd + ctrl + shift + alt - f : open -a finder
 cmd + ctrl + shift + alt - a : open -a antigravity
 cmd + ctrl + shift + alt - v : open -a "Visual Studio Code"
 cmd + ctrl + shift + alt - s : open -a excalidrawz
+
+cmd + ctrl + shift + alt - g : osascript -e 'tell application "Zen" to activate' \
+          -e 'tell application "Zen" to open location "https://www.google.com/search?q=" & (the clipboard)'
