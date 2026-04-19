@@ -123,10 +123,9 @@ on-mode-changed = []
     cmd-shift-l = 'move right'
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#resize
-    cmd-ctrl-h = 'resize width -50'
-    cmd-ctrl-l = 'resize width +50'
-    cmd-ctrl-k = 'resize height -50'
-    cmd-ctrl-j = 'resize height +50'
+    cmd-ctrl-h = 'resize smart -50'
+    cmd-ctrl-l = 'resize smart +50'
+
     # See: https://nikitabobko.github.io/AeroSpace/commands#workspace
     cmd-1 = 'workspace 1'
     cmd-2 = 'workspace 2'
@@ -139,22 +138,24 @@ on-mode-changed = []
     cmd-9 = 'workspace 9'
     # Add more workspaces as needed
     # See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
-    cmd-shift-1 = 'move-node-to-workspace 1'
-    cmd-shift-2 = 'move-node-to-workspace 2'
-    cmd-shift-3 = 'move-node-to-workspace 3'
-    cmd-shift-4 = 'move-node-to-workspace 4'
-    cmd-shift-5 = 'move-node-to-workspace 5'
-    cmd-shift-6 = 'move-node-to-workspace 6'
-    cmd-shift-7 = 'move-node-to-workspace 7'
-    cmd-shift-8 = 'move-node-to-workspace 8'
-    cmd-shift-9 = 'move-node-to-workspace 9'
-
+    cmd-shift-1 = ['move-node-to-workspace 1', 'workspace 1']
+    cmd-shift-2 = ['move-node-to-workspace 2', 'workspace 2']
+    cmd-shift-3 = ['move-node-to-workspace 3', 'workspace 3']
+    cmd-shift-4 = ['move-node-to-workspace 4', 'workspace 4']
+    cmd-shift-5 = ['move-node-to-workspace 5', 'workspace 5']
+    cmd-shift-6 = ['move-node-to-workspace 6', 'workspace 6']
+    cmd-shift-7 = ['move-node-to-workspace 7', 'workspace 7']
+    cmd-shift-8 = ['move-node-to-workspace 8', 'workspace 8']
+    cmd-shift-9 = ['move-node-to-workspace 9', 'workspace 9']
     alt-f = 'fullscreen'
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#workspace-back-and-forth
     alt-tab = 'workspace-back-and-forth'
     # See: https://nikitabobko.github.io/AeroSpace/commands#move-workspace-to-monitor
     alt-shift-tab = 'move-workspace-to-monitor --wrap-around next'
+
+    # quicker binding for toggling floating/tiling layout
+    cmd-shift-f = 'layout floating tiling'
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#mode
     cmd-shift-comma = 'mode service'
