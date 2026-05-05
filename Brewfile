@@ -19,6 +19,7 @@ brew "pipx"
 brew "cmake"
 brew "maven"
 brew "cocoapods"
+brew "jenv"
 
 brew "cmatrix"
 brew "cowsay"

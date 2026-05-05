@@ -14,6 +14,10 @@ compinit
 # zsh-autosuggestions
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
+# jenv setup
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
+
 alias vim="nvim"
 alias vi="nvim"
 
@@ -33,7 +37,6 @@ export CLICOLOR=1
 export LSCOLORS=HxfxCxDxBxegedabagacad
 
 # Paths
-export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"
 export PATH="$HOME/.local/scripts:$PATH"
 export PATH="/Library/TeX/texbin:$PATH"
 export PATH="/Applications/MATLAB_R2024b.app/bin:$PATH"
