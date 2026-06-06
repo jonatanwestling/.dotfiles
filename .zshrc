@@ -46,3 +46,6 @@ export PATH="/Applications/MATLAB_R2024b.app/bin:$PATH"
 export PATH="$PATH:/Users/jonatanwestling/.local/bin"
 # Added by Antigravity
 export PATH="/Users/jonatanwestling/.antigravity/antigravity/bin:$PATH"
+
+# Added by Antigravity IDE
+export PATH="/Users/jonatanwestling/.antigravity-ide/antigravity-ide/bin:$PATH"
