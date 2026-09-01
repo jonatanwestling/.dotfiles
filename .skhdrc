@@ -110,7 +110,7 @@ cmd + ctrl + shift + alt - b : open -a zen
 cmd + ctrl + shift + alt - s : open -a safari
 cmd + ctrl + shift + alt - return : open -a ghostty
 cmd + ctrl + shift + alt - t : open -a ghostty
-cmd + ctrl + shift + alt - c : open -a chatgpt
+cmd + ctrl + shift + alt - c : open -a gemini
 cmd + ctrl + shift + alt - m : open -a spotify
 cmd + ctrl + shift + alt - d : open -a discord
 cmd + ctrl + shift + alt - p : open -a preview
