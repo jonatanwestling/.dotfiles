@@ -72,6 +72,11 @@ create_symlink "$DOTFILES_DIR/karabiner/karabiner.json" "$HOME/.config/karabiner
 mkdir -p "$HOME/.config/aerospace"
 create_symlink "$DOTFILES_DIR/aerospace/aerospace.toml" "$HOME/.config/aerospace/aerospace.toml"
 
+# VS Code config
+mkdir -p "$HOME/Library/Application Support/Code/User"
+create_symlink "$DOTFILES_DIR/vscode/settings.json" "$VSCODE_USER_DIR/settings.json"
+create_symlink "$DOTFILES_DIR/vscode/keybindings.json" "$VSCODE_USER_DIR/keybindings.json"
+
 #Personal scripts folder
 mkdir -p "$HOME/.local" # make sure parent exists
 create_symlink "$DOTFILES_DIR/scripts" "$HOME/.local/scripts"

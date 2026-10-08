@@ -1,0 +1,92 @@
+{
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorStyle": "block",
+    "editor.cursorBlinking": "phase",
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "workbench.startupEditor": "none",
+    "explorer.confirmDragAndDrop": false,
+    "editor.minimap.autohide": "mouseover",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "haskell.manageHLS": "GHCup",
+    "workbench.productIconTheme": "developer-icons",
+    "workbench.colorTheme": "Correia Gruvbox Theme",
+    "editor.lineNumbers": "relative",
+    "editor.detectIndentation": false,
+    "vim.useSystemClipboard": true,
+    "explorer.confirmDelete": false,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": true,
+        "scminput": false,
+        "python": true,
+    },
+    "git.confirmSync": false,
+    "redhat.telemetry.enabled": true,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features",
+    },
+    "git.ignoreRebaseWarning": true,
+    "terminal.integrated.fontFamily": "\"0xProto Nerd Font\"",
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "extensions.ignoreRecommendations": true,
+    "terminal.integrated.stickyScroll.enabled": false,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "terminal.integrated.fontSize": 14,
+    "editor.fontSize": 14,
+    "workbench.editor.customLabels.enabled": true,
+    "workbench.editor.customLabels.patterns": {
+        "**/*.entra": "${filename}",
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "editor.inlineSuggest.showToolbar": "always",
+    "keyboard.dispatch": "keyCode",
+    "terminal.integrated.initialHint": false,
+    "chat.viewSessions.orientation": "stacked",
+    "terminal.integrated.agentHostProfile.linux": "",
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true,
+    },
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.inlineSuggest.enabled": true,
+    "workbench.browser.showInTitleBar": true,
+    "editor.formatOnSave": true,
+    "jdk.telemetry.enabled": true,
+    "[java]": {
+        "editor.defaultFormatter": "Oracle.oracle-java",
+    },
+    "chat.titleBar.openInAgentsWindow.enabled": false,
+    "window.commandCenter": false,
+    "vim.leader": "<space>",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "f"
+            ],
+            "commands": [
+                "workbench.action.findInFiles"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "e"
+            ],
+            "commands": [
+                "workbench.view.explorer"
+            ]
+        }
+    ],
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    }
+}
