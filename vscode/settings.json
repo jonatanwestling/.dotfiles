@@ -124,5 +124,8 @@
     ],
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
-    }
+    },
+    "markdown-preview-enhanced.enablePreviewZenMode": true,
+    "markdown-preview-enhanced.codeBlockTheme": "auto.css",
+    "markdown-preview-enhanced.previewTheme": "atom-dark.css"
 }
