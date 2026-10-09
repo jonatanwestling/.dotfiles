@@ -74,18 +74,18 @@ This repository contains my personal configurations for a fast, minimal, and ful
 
 The `setup.sh` script maps configurations in this repository to their respective paths:
 
-| File / Folder              | Target Location                            | Description                                       |
-| :------------------------- | :----------------------------------------- | :------------------------------------------------ |
-| `ghostty.config`           | `~/.config/ghostty/config`                 | Ghostty terminal layout, theme, and font settings |
-| `Ghostty.icns`             | `~/.config/ghostty/Ghostty.icns`           | Custom Ghostty application icon                   |
-| `aerospace/aerospace.toml` | `~/.config/aerospace/aerospace.toml`       | AeroSpace layouts, workspace bindings, and rules  |
-| `karabiner/karabiner.json` | `~/.config/karabiner/karabiner.json`       | Karabiner profile and Hyper key modification      |
-| `starship.toml`            | `~/.config/starship.toml`                  | Starship prompt layout and module symbols         |
-| `.zshrc`                   | `~/.zshrc`                                 | Shell environment, aliases, and tool paths        |
-| `.tmux.conf`               | `~/.tmux.conf`                             | tmux keybindings, prefix, and status bar setup    |
-| `.skhdrc`                  | `~/.skhdrc`                                | Global hotkeys and launcher commands              |
-| `vscode/`                  | `~/Library/Application Support/Code/User/` | VS Code `settings.json` and `keybindings.json`    |
-| `Brewfile`                 | —                                          | Declarative list of Homebrew formulae and casks   |
+| Folder / File | Target Location | Description |
+| :--- | :--- | :--- |
+| `aerospace/aerospace.toml` | `~/.config/aerospace/aerospace.toml` | AeroSpace layouts, workspace bindings, and rules |
+| `ghostty/config` | `~/.config/ghostty/config` | Ghostty terminal layout, theme, and font settings |
+| `ghostty/Ghostty.icns` | `~/.config/ghostty/Ghostty.icns` | Custom Ghostty application icon |
+| `karabiner/karabiner.json` | `~/.config/karabiner/karabiner.json` | Karabiner profile and Hyper key modification |
+| `skhd/.skhdrc` | `~/.skhdrc` | Global hotkeys and launcher commands |
+| `starship/starship.toml` | `~/.config/starship.toml` | Starship prompt layout and module symbols |
+| `tmux/.tmux.conf` | `~/.tmux.conf` | tmux keybindings, prefix, and status bar setup |
+| `vscode/` | `~/Library/Application Support/Code/User/` | VS Code `settings.json` and `keybindings.json` |
+| `zsh/.zshrc` | `~/.zshrc` | Shell environment, aliases, and tool paths |
+| `Brewfile` | — | Declarative list of Homebrew formulae and casks |
 
 ---
 
