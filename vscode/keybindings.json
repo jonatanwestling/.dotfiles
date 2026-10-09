@@ -24,26 +24,6 @@
         "command": "workbench.action.terminal.new"
     },
     {
-        "key": "ctrl+.",
-        "command": "antigravity.toggleChatFocus",
-        "when": "antigravity.chatFocused"
-    },
-    {
-        "key": "cmd+l",
-        "command": "-antigravity.toggleChatFocus",
-        "when": "antigravity.chatFocused"
-    },
-    {
-        "key": "ctrl+.",
-        "command": "antigravity.toggleChatFocus",
-        "when": "!antigravity.chatFocused && !editorTextFocus && !terminalFocus"
-    },
-    {
-        "key": "cmd+l",
-        "command": "-antigravity.toggleChatFocus",
-        "when": "!antigravity.chatFocused && !editorTextFocus && !terminalFocus"
-    },
-    {
         "key": "escape",
         "command": "workbench.action.focusActiveEditorGroup",
         "when": "searchViewletFocus || explorerViewletFocus ||  antigravity.chatFocused || filesExplorerFocus"
