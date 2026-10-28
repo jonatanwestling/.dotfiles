@@ -120,6 +120,15 @@
             "commands": [
                 "antigravity.toggleChatFocus"
             ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "q"
+            ],
+            "commands": [
+                "workbench.action.closeFolder"
+            ]
         }
     ],
     "[jsonc]": {
@@ -127,5 +136,6 @@
     },
     "markdown-preview-enhanced.enablePreviewZenMode": true,
     "markdown-preview-enhanced.codeBlockTheme": "auto.css",
-    "markdown-preview-enhanced.previewTheme": "atom-dark.css"
+    "markdown-preview-enhanced.previewTheme": "atom-dark.css",
+    "editor.largeFileOptimizations": false
 }
