@@ -1,0 +1,19 @@
+[user]
+	name = Jonatan
+	email = jonatanwestling4@gmail.com
+
+[core]
+	hooksPath = ~/.git-hooks
+	autocrlf = input
+
+[init]
+	defaultBranch = main
+
+[push]
+	autoSetupRemote = true
+
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
