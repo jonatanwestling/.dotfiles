@@ -90,6 +90,14 @@ create_symlink "$DOTFILES_DIR/vscode/keybindings.json" "$VSCODE_USER_DIR/keybind
 mkdir -p "$HOME/.local"
 create_symlink "$DOTFILES_DIR/scripts" "$HOME/.local/scripts"
 
+# nvim config (clone if not already present)
+if [ ! -d "$HOME/.config/nvim" ]; then
+    echo "📦 Cloning Neovim configuration..."
+    git clone https://github.com/jonatanwestling/nvim-config.git "$HOME/.config/nvim"
+else
+    echo "➜ nvim configuration already exists, skipping clone."
+fi
+
 echo
 echo "🔗 Summary:"
 echo "✔ Total links correctly set up: $LINK_COUNT"
