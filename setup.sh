@@ -46,6 +46,9 @@ create_symlink() {
 }
 
 # --- Home directory dotfiles ---
+# Git config
+create_symlink "$DOTFILES_DIR/git/.gitconfig" "$HOME/.gitconfig"
+
 # Zsh config
 create_symlink "$DOTFILES_DIR/zsh/.zshrc" "$HOME/.zshrc"
 
