@@ -6,6 +6,9 @@ export LC_MEASUREMENT="sv_SE.UTF-8"  # Metric units
 export LC_PAPER="sv_SE.UTF-8"        # A4 paper size
 export LC_TIME="sv_SE.UTF-8"         # Date and time format
 
+# fall back to xterm-256color over SSH since many remote servers lack Ghostty's terminfo
+alias ssh='TERM=xterm-256color ssh'
+
 # This is for git auto complete
 fpath+=/opt/homebrew/share/zsh/site-functions
 autoload -Uz compinit
